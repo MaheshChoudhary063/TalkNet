@@ -1,0 +1,65 @@
+/* General container and layout */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 100vh;
+  background: linear-gradient(135deg, #1f4037, #99f2c8);
+}
+
+.login-box {
+  background: white;
+  padding: 40px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  margin: 0 20px;
+}
+
+.logo p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.login-h1 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #6c63ff;
+}
+
+.form-submit {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #6c63ff;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.form-submit:hover {
+  background-color: #5753d7;
+}
