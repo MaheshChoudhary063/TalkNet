@@ -9,7 +9,8 @@ const Chat = () => {
   const [users, setUsers] = useState([]);
   const [message, setMessage] = useState("");
   const [messages, setMessages] = useState([]);
-  const socketUrl = "https://talk-net-brown.vercel.app";;
+  const socketUrl =
+    "https://talk-jw5nooaw5-maheshchoudhary063s-projects.vercel.app";
 
   useEffect(() => {
     const search = window.location.search;
