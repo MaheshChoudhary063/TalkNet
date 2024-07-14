@@ -9,7 +9,7 @@ const Chat = () => {
   const [users, setUsers] = useState([]);
   const [message, setMessage] = useState("");
   const [messages, setMessages] = useState([]);
-  const socketUrl = "http://localhost:8000";
+  const socketUrl = "https://talk-net-brown.vercel.app";;
 
   useEffect(() => {
     const search = window.location.search;
